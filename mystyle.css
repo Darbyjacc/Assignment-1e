@@ -7,6 +7,9 @@ h1 {
   margin-left: 20px;
 }
 #darbtext {
+  color: #84fcfd;
+  font-family: Heritage;
+  font-size: 100px;
   border: 30px solid #b8fe00;
   border-radius: 25px;
   padding: 50px;
@@ -14,9 +17,25 @@ h1 {
   animation-duration: .1s;
   animation-iteration-count: infinite;
   margin: 20px;
-  transform: rotateX(150deg)
 }
 @keyframes ani {
   from {background-color: #fe0213;}
   to {background-color: #0101fd;}
 }
+@font-face {
+   font-family: Heritage;
+   src: url(Heritage-Display.otf);
+}
+h2 {
+  color: #fefb01;
+  margin-left: 70px;
+}
+#moretext {
+  color: #84fcfd;
+  background-image: url(scary.gif);
+  background-size: contain;
+  border: 10px solid #b8fe00;
+  height: 300px;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 50px;
