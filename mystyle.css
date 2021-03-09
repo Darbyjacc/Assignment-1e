@@ -6,3 +6,9 @@ h1 {
   color: orange;
   margin-left: 20px;
 }
+#darbtext {
+  padding: 8px;
+  background: Tomato;
+  width: 150px;
+  height: 150px;
+}
