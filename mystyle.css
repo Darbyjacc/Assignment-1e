@@ -9,7 +9,8 @@ h1 {
 #darbtext {
   color: #84fcfd;
   font-family: Heritage;
-  font-size: 100px;
+  font-size: 150px;
+  text-align: center;
   border: 30px solid #b8fe00;
   border-radius: 25px;
   padding: 50px;
@@ -32,10 +33,31 @@ h2 {
 }
 #moretext {
   color: #84fcfd;
+  font-family: Heritage;
+  font-size: 200px;
+  text-align: center;
   background-image: url(scary.gif);
   background-size: contain;
-  border: 10px solid #b8fe00;
+  border: 30px solid #ff4753;
   height: 300px;
   border-radius: 25px;
   padding: 50px;
   margin: 50px;
+}
+h3 {
+    color: #fefb01;
+    margin-left: 70px;
+}
+  #stink {
+    color: #84fcfd;
+    font-family: Heritage;
+    font-size: 200px;
+    text-align: center;
+    background-image: url(worms.gif);
+    background-size: contain;
+    border: 30px solid #00f9fe;
+    height: 300px;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px;
+}
