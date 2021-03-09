@@ -1,14 +1,22 @@
 body {
-  background-color: red;
+  background-image: linear-gradient(#fe71ff, #99b1ff);
 }
 
 h1 {
-  color: orange;
+  color: #fefb01;
   margin-left: 20px;
 }
 #darbtext {
-  padding: 8px;
-  background: white;
-  width: 150px;
-  height: 150px;
+  border: 30px solid #b8fe00;
+  border-radius: 25px;
+  padding: 50px;
+  animation-name: ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin: 20px;
+  transform: rotateX(150deg)
+}
+@keyframes ani {
+  from {background-color: #fe0213;}
+  to {background-color: #ac8e23;}
 }
