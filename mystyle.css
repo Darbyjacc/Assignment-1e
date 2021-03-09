@@ -1,8 +1,19 @@
 body {
   background-image: linear-gradient(#fe71ff, #99b1ff);
+
+}
+#Darbyhead {
+  color: #fbf790;
+  font-family: Heritage;
+  font-size: 150px;
+  text-align: center;
+  padding: 10px;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  margin: 20px;
 }
 
-h1 {
+h2 {
   color: #fefb01;
   margin-left: 20px;
 }
@@ -27,7 +38,7 @@ h1 {
    font-family: Heritage;
    src: url(Heritage-Display.otf);
 }
-h2 {
+h3 {
   color: #fefb01;
   margin-left: 70px;
 }
@@ -44,7 +55,8 @@ h2 {
   padding: 50px;
   margin: 50px;
 }
-h3 {
+
+h4 {
     color: #fefb01;
     margin-left: 70px;
 }
